@@ -1,0 +1,20 @@
+{
+  "name": "zapdir",
+  "version": "1.0.0",
+  "description": "Blazing-fast terminal cleanup tool for heavy build artifacts and junk",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "zapdir": "index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "zapdir": "node index.js"
+  },
+  "keywords": ["cleanup", "terminal", "cli", "node_modules", "junk"],
+  "license": "MIT",
+  "dependencies": {
+    "@clack/prompts": "^0.7.0",
+    "picocolors": "^1.0.0"
+  }
+}
