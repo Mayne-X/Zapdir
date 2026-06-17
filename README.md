@@ -208,7 +208,7 @@ PRs are welcome! If you have an idea for a new junk pattern or a UI improvement:
 
 ## 📄 License
 
-MIT © [Your Name]
+MIT © Mayne-X
 
 ---
 
