@@ -227,3 +227,7 @@ MIT © Mayne-X
   </p>
   <br/>
 </div>
+
+
+## Related Projects
+- [Awesome Rust CLI Tools](https://github.com/Mayne-X/Awesome-Rust-Cli-Tools) - A curated list of production-ready Rust command-line utilities.
