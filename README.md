@@ -22,6 +22,11 @@
     <img src="https://img.shields.io/badge/license-MIT-1A73E8?style=flat-square" alt="MIT"/>
     <img src="https://img.shields.io/badge/status-stable-00C853?style=flat-square" alt="Stable"/>
     <img src="https://img.shields.io/badge/PRs-welcome-FF6D00?style=flat-square" alt="PRs"/>
+    <br/>
+    <img src="https://img.shields.io/npm/v/zapdir?style=flat-square&logo=npm" alt="npm version"/>
+    <img src="https://img.shields.io/npm/dt/zapdir?style=flat-square&logo=npm" alt="npm downloads"/>
+    <img src="https://img.shields.io/github/stars/Mayne-X/Zapdir?style=flat-square&logo=github" alt="GitHub stars"/>
+    <img src="https://img.shields.io/github/forks/Mayne-X/Zapdir?style=flat-square&logo=github" alt="GitHub forks"/>
   </p>
 
   <br/>
