@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ZapDir - Blazing-fast terminal cleanup tool</title>
+  <meta name="description" content="ZapDir is a blazing-fast terminal cleanup tool for node_modules, .next, dist, build, and other heavy build artifacts. Reclaim disk space with an interactive TUI.">
+  <meta name="keywords" content="zapdir, cleanup, terminal, cli, node_modules, disk-cleanup, developer-tools, build-artifacts, npm">
+  <meta property="og:title" content="ZapDir - Terminal Cleanup Tool">
+  <meta property="og:description" content="Blazing-fast terminal cleanup tool for node_modules, .next, dist, build, and other heavy build artifacts.">
+  <meta property="og:url" content="https://mayne-x.github.io/Zapdir/">
+  <link rel="canonical" href="https://mayne-x.github.io/Zapdir/">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0d1117; color: #c9d1d9; line-height: 1.6; }
+    .container { max-width: 800px; margin: 0 auto; padding: 4rem 2rem; }
+    h1 { font-size: 3rem; color: #58a6ff; margin-bottom: 1rem; }
+    h2 { color: #58a6ff; margin: 2rem 0 1rem; }
+    p { margin-bottom: 1rem; color: #8b949e; }
+    .tagline { font-size: 1.3rem; color: #8b949e; margin-bottom: 2rem; }
+    .btn { display: inline-block; padding: 0.8rem 2rem; background: #238636; color: #fff; text-decoration: none; border-radius: 6px; font-weight: 600; margin: 0.5rem; }
+    .btn-outline { background: transparent; border: 1px solid #30363d; color: #c9d1d9; }
+    .btn:hover { opacity: 0.9; }
+    .features { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin: 2rem 0; }
+    .feature { background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 1.5rem; }
+    .feature h3 { color: #58a6ff; margin-bottom: 0.5rem; }
+    code { background: #161b22; padding: 0.2rem 0.4rem; border-radius: 4px; font-size: 0.9rem; color: #f0883e; }
+    .cmd { background: #161b22; padding: 1rem; border-radius: 6px; border: 1px solid #30363d; margin: 1rem 0; color: #7ee787; }
+    .badges { margin: 2rem 0; }
+    .badges img { margin: 0.25rem; }
+    footer { text-align: center; padding: 2rem; color: #484f58; font-size: 0.9rem; }
+    a { color: #58a6ff; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>⚡ ZapDir</h1>
+    <div class="tagline">Blazing-fast terminal cleanup tool for heavy build artifacts</div>
+
+    <div class="badges">
+      <img src="https://img.shields.io/npm/v/zapdir" alt="npm version">
+      <img src="https://img.shields.io/npm/dt/zapdir" alt="npm downloads">
+      <img src="https://img.shields.io/github/stars/Mayne-X/Zapdir" alt="GitHub stars">
+      <img src="https://img.shields.io/badge/license-MIT-blue" alt="MIT">
+    </div>
+
+    <div class="cmd">npm install -g zapdir</div>
+    <div class="cmd">zapdir</div>
+
+    <p>ZapDir scans your projects for <code>node_modules</code>, <code>.next</code>, <code>dist</code>, <code>build</code>, and other heavy junk folders — then lets you nuke them from orbit with a gorgeous interactive terminal UI.</p>
+
+    <a href="https://github.com/Mayne-X/Zapdir" class="btn">View on GitHub</a>
+    <a href="https://www.npmjs.com/package/zapdir" class="btn btn-outline">View on npm</a>
+
+    <h2>Features</h2>
+    <div class="features">
+      <div class="feature"><h3>⚡ Blazing Fast</h3><p>Async parallel scanner finds junk in seconds</p></div>
+      <div class="feature"><h3>🎨 Beautiful UI</h3><p>Powered by @clack/prompts with spinners & colored outputs</p></div>
+      <div class="feature"><h3>🔍 13 Patterns</h3><p>node_modules, .next, dist, build, .cache, .turbo, and more</p></div>
+      <div class="feature"><h3>🛡️ Safe</h3><p>Dry-run mode + confirmation — never delete by accident</p></div>
+    </div>
+
+    <h2>Usage</h2>
+    <div class="cmd"># Interactive mode<br>zapdir</div>
+    <div class="cmd"># Dry run (safe preview)<br>zapdir --dry-run</div>
+    <div class="cmd"># Scan specific directory<br>zapdir ~/Projects</div>
+
+    <h2>Why ZapDir?</h2>
+    <p>Build artifacts accumulate fast. A single <code>node_modules</code> folder can be 200MB+. Add <code>.next</code> (1GB+), <code>dist</code>, <code>.cache</code>, and <code>build</code> folders, and you can reclaim gigabytes of disk space with a single command.</p>
+
+    <p>Unlike <code>wipe-modules</code> or <code>npkill</code>, ZapDir handles 13 different patterns out of the box, has a beautiful interactive TUI with color-coded size bars, and is safe with dry-run mode.</p>
+
+    <a href="https://github.com/Mayne-X/Zapdir" class="btn">⭐ Star on GitHub</a>
+    <a href="https://www.npmjs.com/package/zapdir" class="btn btn-outline">📦 Install from npm</a>
+  </div>
+  <footer>
+    <p>ZapDir — MIT Licensed · <a href="https://github.com/Mayne-X/Zapdir">GitHub</a> · <a href="https://www.npmjs.com/package/zapdir">npm</a></p>
+  </footer>
+</body>
+</html>
